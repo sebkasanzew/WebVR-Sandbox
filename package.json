@@ -1,0 +1,37 @@
+{
+  "name": "web-vr-sandbox",
+  "version": "0.0.1",
+  "description": "a playground vor WebVR with the HTC Vive",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sebkasanzew/WebVR-Sandbox.git"
+  },
+  "keywords": [
+    "WebVR",
+    "HTC",
+    "Vive",
+    "VR",
+    "Chrome",
+    "Experimental"
+  ],
+  "author": "Sebastian Kasanzew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sebkasanzew/WebVR-Sandbox/issues"
+  },
+  "homepage": "https://github.com/Sebkasanzew/WebVR-Sandbox#readme",
+  "dependencies": {
+    "aframe": "^0.3.1",
+    "aframe-webvr-controller": "0.0.7"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.13.2",
+    "browserify": "^13.1.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
+  }
+}
